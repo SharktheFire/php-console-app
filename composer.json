@@ -1,0 +1,22 @@
+{
+  "name": "sharkthefire/php-console-app",
+  "description": "Playground with Symfony PHP console app",
+  "type": "project",
+  "require": {
+    "symfony/console": "^4.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jennifer Eschenhorn",
+      "email": "jennifer.eschenhorn@jimdo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SharktheFire\\Console\\": [
+        "src/"
+      ]
+    }
+  }
+}
